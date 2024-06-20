@@ -13,7 +13,7 @@ while True:
     player = input("Enter choices: ")
 
     c1 = "fold" if randint(0, 1) == 0 else "unfold"
-    c2 = "fold" if randint(0, 1) == 0 else "unfold"
+    c2 = "unfold" if randint(0, 1) == 1 else "unfold"
     
     print(f" PLayer Choce: {player}")
     print(f" Computer 1 Choce: {c1}")
